@@ -1,0 +1,19 @@
+{
+  "name": "color-generator-app",
+  "version": "1.0.0",
+  "description": "This app is used to generate HEX codes for calculated Sass variables.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsshealy/color-generator-app.git"
+  },
+  "author": "Scott Shealy | scottshealy.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/vsshealy/color-generator-app/issues"
+  },
+  "homepage": "https://github.com/vsshealy/color-generator-app#readme"
+}
