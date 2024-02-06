@@ -29,3 +29,48 @@
     @import "objects/flexbox";
     @import "objects/grids";
     @import "objects/bootstrap";
+
+// STYLES
+    .color-swatch {
+        // GLOBAL
+            height: 2.00rem;
+            width: 100.00%;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //SCREEN-XS
+            @media #{$media-sm} {} //SCREEN-SM
+            @media #{$media-md} {} //SCREEN-MD
+            @media #{$media-lg} {} //SCREEN-LG
+            @media #{$media-xl} {} //SCREEN-XL
+            @media #{$media-xxl} {} //SCREEN-XXL
+    } //.COLOR-SWATCH
+
+    #{$text-all} {text-align: center;} //TEXT-ALL
+
+    #color-light-12 .color-swatch {background-color: $color-variable-light-12;} //#COLOR-LIGHT-12
+    #color-light-11 .color-swatch {background-color: $color-variable-light-11;} //#COLOR-LIGHT-11
+    #color-light-10 .color-swatch {background-color: $color-variable-light-10} //#COLOR-LIGHT-10
+    #color-light-9 .color-swatch {background-color: $color-variable-light-9;} //#COLOR-LIGHT-9
+    #color-light-8 .color-swatch {background-color: $color-variable-light-8} //#COLOR-LIGHT-8
+    #color-light-7 .color-swatch {background-color: $color-variable-light-7} //#COLOR-LIGHT-7
+    #color-light-6 .color-swatch {background-color: $color-variable-light-6} //#COLOR-LIGHT-6
+    #color-light-5 .color-swatch {background-color: $color-variable-light-5} //#COLOR-LIGHT-5
+    #color-light-4 .color-swatch {background-color: $color-variable-light-4} //#COLOR-LIGHT-4
+    #color-light-3 .color-swatch {background-color: $color-variable-light-3} //#COLOR-LIGHT-3
+    #color-light-2 .color-swatch {background-color: $color-variable-light-2} //#COLOR-LIGHT-2
+    #color-light-1 .color-swatch {background-color: $color-variable-light-1} //#COLOR-LIGHT-1
+    
+    #color-base .color-swatch {background-color: $color-variable;} //#COLOR-BASE
+
+    #color-dark-1 .color-swatch {background-color: $color-variable-dark-1;} //#COLOR-DARK-1
+    #color-dark-2 .color-swatch {background-color: $color-variable-dark-2;} //#COLOR-DARK-2
+    #color-dark-3 .color-swatch {background-color: $color-variable-dark-3} //#COLOR-DARK-3
+    #color-dark-4 .color-swatch {background-color: $color-variable-dark-4;} //#COLOR-DARK-4
+    #color-dark-5 .color-swatch {background-color: $color-variable-dark-5} //#COLOR-DARK-5
+    #color-dark-6 .color-swatch {background-color: $color-variable-dark-6} //#COLOR-DARK-6
+    #color-dark-7 .color-swatch {background-color: $color-variable-dark-7} //#COLOR-DARK-7
+    #color-dark-8 .color-swatch {background-color: $color-variable-dark-8} //#COLOR-DARK-8
+    #color-dark-9 .color-swatch {background-color: $color-variable-dark-9} //#COLOR-DARK-9
+    #color-dark-10 .color-swatch {background-color: $color-variable-dark-10} //#COLOR-DARK-10
+    #color-dark-11 .color-swatch {background-color: $color-variable-dark-11} //#COLOR-DARK-11
+    #color-dark-12 .color-swatch {background-color: $color-variable-dark-12} //#COLOR-DARK-12
