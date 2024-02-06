@@ -1,0 +1,100 @@
+/**
+ * sass/objects/wrappers.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+// GUTTERS
+    $body-gutter: 1.00rem;
+    $body-gutter-columns: $body-gutter * 0.50;
+
+// STYLES
+    .wrapper {
+        // GLOBAL
+            margin: 0.00rem auto;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //SCREEN-XS
+            @media #{$media-sm} {} //SCREEN-SM
+            @media #{$media-md} {} //SCREEN-MD
+            @media #{$media-lg} {} //SCREEN-LG
+            @media #{$media-xl} {} //SCREEN-XL
+            @media #{$media-xxl} {} //SCREEN-XXL
+
+        &-full {
+            // GLOBAL
+                @extend .wrapper;
+                width: 100.00%;
+                min-width: 100.00%;
+                max-width: 100.00%;
+
+            // MEDIA QUERIES
+                @media #{$media-xs} {} //SCREEN-XS
+                @media #{$media-sm} {} //SCREEN-SM
+                @media #{$media-md} {} //SCREEN-MD
+                @media #{$media-lg} {} //SCREEN-LG
+                @media #{$media-xl} {} //SCREEN-XL
+                @media #{$media-xxl} {} //SCREEN-XXL
+
+            &-screen {
+                // GLOBAL
+                    @extend .wrapper-full;
+                    height: 100.00vh;
+                    min-height: 100.00vh;
+                    max-height: 100.00vh;
+
+                // MEDIA QUERIES
+                    @media #{$media-xs} {} //SCREEN-XS
+                    @media #{$media-sm} {} //SCREEN-SM
+                    @media #{$media-md} {} //SCREEN-MD
+                    @media #{$media-lg} {} //SCREEN-LG
+                    @media #{$media-xl} {} //SCREEN-XL
+                    @media #{$media-xxl} {} //SCREEN-XXL
+            } //.WRAPPER-FULL-SCREEN
+        } //.WRAPPER-FULL
+
+        &-page {
+            // GLOBAL
+                @extend .wrapper;
+
+            // MEDIA QUERIES
+                @media #{$media-xs} {} //SCREEN-XS
+                @media #{$media-sm} {} //SCREEN-SM
+                @media #{$media-md} {} //SCREEN-MD
+                @media #{$media-lg} {} //SCREEN-LG
+                @media #{$media-xl} {} //SCREEN-XL
+                @media #{$media-xxl} {} //SCREEN-XXL
+        } //.WRAPPER-PAGE
+
+        &-content {
+            // GLOBAL
+                @extend .wrapper;
+                width: $site-width-min;
+                max-width: $site-width-content !important;
+
+            // MEDIA QUERIES
+                @media #{$media-xs} {} //SCREEN-XS
+                @media #{$media-sm} {} //SCREEN-SM
+                @media #{$media-md} {} //SCREEN-MD
+                @media #{$media-lg} {} //SCREEN-LG
+                @media #{$media-xl} {} //SCREEN-XL
+                @media #{$media-xxl} {} //SCREEN-XXL
+        } //.WRAPPER-CONTENT
+
+        &-none {
+            // GLOBAL
+                @extend .wrapper;
+                width: 100.00%;
+                padding: $padding-none;
+                
+            // MEDIA QUERIES
+                @media #{$media-xs} {} //SCREEN-XS
+                @media #{$media-sm} {} //SCREEN-SM
+                @media #{$media-md} {} //SCREEN-MD
+                @media #{$media-lg} {} //SCREEN-LG
+                @media #{$media-xl} {} //SCREEN-XL
+                @media #{$media-xxl} {} //SCREEN-XXL
+        } //.WRAPPER-NONE
+    } //.WRAPPER

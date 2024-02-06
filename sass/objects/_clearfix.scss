@@ -1,0 +1,44 @@
+/**
+ * sass/objects/clearfix.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+// CLEAR
+    .clear {
+        // GLOBAL
+            clear: both;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.CLEAR
+
+// CLEARFIX
+    .clearfix {
+        // GLOBAL
+            zoom: 1;
+
+            &:before, &:after {
+                content: "";
+                display: table;
+            } //:BEFORE, &:AFTER
+
+            &:after {
+                clear: both;
+            } //:AFTER
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.CLEARFIX

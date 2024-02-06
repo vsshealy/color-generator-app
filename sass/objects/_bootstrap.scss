@@ -1,0 +1,43 @@
+/**
+ * sass/objects/bootstrap.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+// SETTINGS
+    $bootstrap-row-margin: $body-gutter;
+    $bootstrap-columns-margin: $margin-none;
+    $bootstrap-columns-padding: $body-gutter-columns;
+
+// STYLES
+    .row {
+        // GLOBAL
+            margin-left: $margin-none;
+            margin-right: $margin-none;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //SCREEN-XS
+            @media #{$media-sm} {} //SCREEN-SM
+            @media #{$media-md} {} //SCREEN-MD
+            @media #{$media-lg} {} //SCREEN-LG
+            @media #{$media-xl} {} //SCREEN-XL
+            @media #{$media-xxl} {} //SCREEN-XXL
+
+        .columns {
+            // GLOBAL
+                margin-top: $bootstrap-columns-margin;
+                margin-bottom: $bootstrap-columns-margin;
+                padding-left: $bootstrap-columns-padding;
+                padding-right: $bootstrap-columns-padding;
+                
+            // MEDIA QUERIES
+                @media #{$media-xs} {} //SCREEN-XS
+                @media #{$media-sm} {} //SCREEN-SM
+                @media #{$media-md} {} //SCREEN-MD
+                @media #{$media-lg} {} //SCREEN-LG
+                @media #{$media-xl} {} //SCREEN-XL
+                @media #{$media-xxl} {} //SCREEN-XXL
+        } //.COLUMNS
+    } //.ROW

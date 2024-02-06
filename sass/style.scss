@@ -1,0 +1,31 @@
+/**
+ * sass/style.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+// COLOR VARIABLE
+    $color-variable: #0072ce;
+
+// @IMPORT | VARIABLES
+    @import "variables/colors";
+    @import "variables/units";
+    @import "variables/media";
+
+// SETTINGS
+    $body-background-color: $color-grayscale-light-12;
+    $font-sans: "Fira Code", Helvetica, Arial, sans-serif;
+    $font-serif: $font-sans;
+    $link-color: $color-grayscale-dark-6;
+    $link-hover-color: $color-grayscale-dark-3;
+
+// @IMPORT | OBJECTS
+    @import "objects/wrappers";
+    @import "objects/text";
+    @import "objects/site";
+    @import "objects/clearfix";
+    @import "objects/flexbox";
+    @import "objects/grids";
+    @import "objects/bootstrap";

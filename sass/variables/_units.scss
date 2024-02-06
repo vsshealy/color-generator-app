@@ -1,0 +1,66 @@
+/**
+ * sass/variables/units.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+// BASE-UNIT
+    $unit-base: 1.00rem;
+
+// UNIT INCREASES
+    $unit-increase-none: 0.00;
+    $unit-increase-xxs: 0.50;
+    $unit-increase-xs: 0.75;
+    $unit-increase-sm: 1.00;
+    $unit-increase-md: 2.00;
+    $unit-increase-lg: 3.00;
+    $unit-increase-xl: 4.00;
+    $unit-increase-xxl: 6.00;
+
+// GRIDS
+    // GRIDS-BASE
+        $grid-base: calc(100.00 / 12);
+    
+    // GRIDS
+        $grid-1: $grid-base * 1;
+        $grid-2: $grid-base * 2;
+        $grid-3: $grid-base * 3;
+        $grid-4: $grid-base * 4;
+        $grid-5: $grid-base * 5;
+        $grid-6: $grid-base * 6;
+        $grid-7: $grid-base * 7;
+        $grid-8: $grid-base * 8;
+        $grid-9: $grid-base * 9;
+        $grid-10: $grid-base * 10;
+        $grid-11: $grid-base * 11;
+        $grid-12: $grid-base * 12;
+
+// MARGINS
+    // MARGIN-BASE
+        $margin-base: $unit-base;
+
+    // MARGINS
+        $margin-none: $margin-base * $unit-increase-none;
+        $margin-xxs: $margin-base * $unit-increase-xxs;
+        $margin-xs: $margin-base * $unit-increase-xs;
+        $margin-sm: $margin-base * $unit-increase-sm;
+        $margin-md: $margin-base * $unit-increase-md;
+        $margin-lg: $margin-base * $unit-increase-lg;
+        $margin-xl: $margin-base * $unit-increase-xl;
+        $margin-xxl: $margin-base * $unit-increase-xxl;
+
+// PADDINGS
+    // PADDING-BASE
+        $padding-base: $unit-base;
+
+    // PADDINGS
+        $padding-none: $padding-base * $unit-increase-none;
+        $padding-xxs: $padding-base * $unit-increase-xxs;
+        $padding-xs: $padding-base * $unit-increase-xs;
+        $padding-sm: $padding-base * $unit-increase-sm;
+        $padding-md: $padding-base * $unit-increase-md;
+        $padding-lg: $padding-base * $unit-increase-lg;
+        $padding-xl: $padding-base * $unit-increase-xl;
+        $padding-xxl: $padding-base * $unit-increase-xxl;

@@ -1,0 +1,203 @@
+/**
+ * sass/objects/grids.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+.grid {
+    // GLOBAL
+        display: flex;
+        
+    // MEDIA QUERIES
+        @media #{$media-xs} {} //.COL-XS
+        @media #{$media-sm} {} //.COL-SM
+        @media #{$media-md} {} //.COL-MD
+        @media #{$media-lg} {} //.COL-LG
+        @media #{$media-xl} {} //.COL-XL
+        @media #{$media-xxl} {} //.COL-XXL
+
+    &-0 {
+        // GLOBAL
+            @extend .grid;
+            display: none;
+            
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-0
+    
+    &-1 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-1;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-1
+
+    &-2 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-2;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-2
+
+    &-3 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-3;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-3
+
+    &-4 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-4;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-4
+
+    &-5 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-5;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-5
+
+    &-6 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-6;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-6
+
+    &-7 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-7;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-7
+
+    &-8 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-8;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-8
+
+    &-9 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-9;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-9
+
+    &-10 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-10;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-10
+
+    &-11 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-11;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-11
+
+    &-12 {
+        // GLOBAL
+            @extend .grid;
+            width: $grid-12;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //.COL-XS
+            @media #{$media-sm} {} //.COL-SM
+            @media #{$media-md} {} //.COL-MD
+            @media #{$media-lg} {} //.COL-LG
+            @media #{$media-xl} {} //.COL-XL
+            @media #{$media-xxl} {} //.COL-XXL
+    } //.GRID-12
+    
+} //.GRID

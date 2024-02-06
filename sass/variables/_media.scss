@@ -1,0 +1,30 @@
+/**
+ * sass/variables/media.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+// SITE-WIDTHS
+    $site-width-min: 90.00%;
+    $site-width-max: 100.00%;
+    $site-width-content: 1440px;
+
+// MEDIA QUERIES
+    $media-xs: "(max-width: 575px)";
+    $media-sm: "(min-width: 576px)";
+    $media-md: "(min-width: 768px)";
+    $media-lg: "(min-width: 992px)";
+    $media-xl: "(min-width: 1200px)";
+    $media-xxl: "(min-width: 1440px)";
+
+// TEMPLATES
+    // GLOBAL
+    // MEDIA QUERIES
+        @media #{$media-xs} {} //SCREEN-XS
+        @media #{$media-sm} {} //SCREEN-SM
+        @media #{$media-md} {} //SCREEN-MD
+        @media #{$media-lg} {} //SCREEN-LG
+        @media #{$media-xl} {} //SCREEN-XL
+        @media #{$media-xxl} {} //SCREEN-XXL

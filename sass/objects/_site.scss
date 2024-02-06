@@ -1,0 +1,77 @@
+/**
+ * sass/objects/site.scss
+ * @package color-generator-app
+ * @author Scott Shealy
+ * @version 1.0.0 (2024.02.05)
+ * @copyright 2024 (2024.02.05)
+**/
+
+// STYLES
+    * {
+        // GLOBAL
+            margin: $margin-none;
+            padding: $padding-none;
+            box-sizing: border-box;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //SCREEN-XS
+            @media #{$media-sm} {} //SCREEN-SM
+            @media #{$media-md} {} //SCREEN-MD
+            @media #{$media-lg} {} //SCREEN-LG
+            @media #{$media-xl} {} //SCREEN-XL
+            @media #{$media-xxl} {} //SCREEN-XXL
+    } //*
+
+    html {
+        // GLOBAL
+            height: 100.00vh;
+            width: 100.00%;
+            position: relative;
+            overflow-x: hidden;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {} //SCREEN-XS
+            @media #{$media-sm} {} //SCREEN-SM
+            @media #{$media-md} {} //SCREEN-MD
+            @media #{$media-lg} {} //SCREEN-LG
+            @media #{$media-xl} {} //SCREEN-XL
+            @media #{$media-xxl} {} //SCREEN-XXL
+    } //HTML
+
+    body {
+        // GLOBAL
+            height: 100.00% !important;
+            width: 100.00%;
+            display: flex !important;
+            flex-direction: column !important;
+            position: relative;
+            margin: $margin-none;
+            padding: $padding-none;
+            background-color: $body-background-color;
+            font-family: $body-text;
+            color: $body-text-color;
+            letter-spacing: $letter-spacing-normal;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+
+        // MEDIA QUERIES
+            @media #{$media-xs} {
+                font-size: $font-size-xs;
+            } //SCREEN-XS
+            @media #{$media-sm} {
+                font-size: $font-size-sm;
+            } //SCREEN-SM
+            @media #{$media-md} {
+                font-size: $font-size-md;
+            } //SCREEN-MD
+            @media #{$media-lg} {
+                font-size: $font-size-lg;
+            } //SCREEN-LG
+            @media #{$media-xl} {
+                font-size: $font-size-xl;
+            } //SCREEN-XL
+            @media #{$media-xxl} {
+                font-size: $font-size-xxl;
+            } //SCREEN-XXL
+    } //BODY
